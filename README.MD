@@ -115,4 +115,4 @@ if (this.bobber && this.Name == "浮标")
 
 * steam正版的存档位置在
 ```C:\Program Files (x86)\Steam\userdata\[your steam id]\105600\remote```，该路径会随着你的steam安装位置和你的steamid不同而改变
-* 离线版的存档位置在```%userprofile%\Documents\My Games\Terraria```路径下s
+* 离线版的存档位置在```%userprofile%\Documents\My Games\Terraria```路径下
