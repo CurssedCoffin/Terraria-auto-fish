@@ -1,4 +1,6 @@
 # Terraria AUTO-FISH tutorial
+FOR [ENGLISH VERSION](https://github.com/CurssedCoffin/Treearia-auto-fish/blob/main/README_EN.MD)
+
 **教程中所用代码和思路来自于[吾爱论坛](https://www.52pojie.cn/thread-1425351-1-1.html)，本人负责提供一个清晰明确的过程**
 
 **该方法具有以下两个缺点：1、钓鱼时，Terraria需处于前台，无法在后台进行钓鱼（实现方法为调用Windows的鼠标点击操作实现收放鱼竿） 2、游戏无法完全关闭（虽然窗口已经关闭，但进程任然存在，需要手动到任务管理器中关闭，原因为钓鱼过程中使用了一个线程，并且线程未结束，目前没有找到这个bug的一个好的修复方法）**
