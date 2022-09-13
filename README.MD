@@ -118,3 +118,13 @@ if (this.bobber && this.Name == "浮标")
 * steam正版的存档位置在
 ```C:\Program Files (x86)\Steam\userdata\[your steam id]\105600\remote```，该路径会随着你的steam安装位置和你的steamid不同而改变
 * 离线版的存档位置在```%userprofile%\Documents\My Games\Terraria```路径下
+
+* 一些别的细节
+```
+Terraria - Terraria.exe - Terraria - Item - buyPrice //购买价格
+Terraria - Terraria.exe - Terraria - Item - sellPrice //出售价格
+Terraria - Terraria.exe - Terraria - Item - SetDefaults //初始化物品属性，可以在这里改单独武器的伤害
+Terraria - Terraria.exe - Terraria - Player - Hurt //受到伤害，经过测试可能和无敌帧有一点关系但不多，数值也不影响受到伤害，直接return一个数就可以无敌，烧伤等负面效果无法免疫
+Terraria - Terraria.exe - Terraria - Player - GetWeaponDamage //所有武器伤害的计算都在这里
+```
+编译时报错```the type or namespace name "ReLogic"```，则去```Terraria - Terraria.exe - 资源```里看看有没有类似的dll，导出dll到相同目录下即可。
