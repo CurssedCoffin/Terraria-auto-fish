@@ -122,7 +122,7 @@ if (this.bobber && this.Name == "浮标")
 * 一些别的细节
 ```
 Terraria - Terraria.exe - Terraria - Item - SetDefaults //初始化物品属性，可以在这里改单独武器的伤害，效率
-Terraria - Terraria.exe - Terraria.GameContent.ItemDropRules - ItemDropDatabase //掉落的物品和概率，概率值为%0.1的倍数，20代表概率为2%
+Terraria - Terraria.exe - Terraria.GameContent.ItemDropRules - ItemDropDatabase //掉落的物品和概率，概率为值的倒数，例如值20代表概率为1/20
 ```
 ```
 Terraria - Terraria.exe - Terraria - Item - buyPrice //购买价格
