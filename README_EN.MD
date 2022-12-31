@@ -122,7 +122,7 @@ if (this.bobber && this.Name == "浮标")
 * some other details
 ```
 Terraria - Terraria.exe - Terraria - Item - SetDefaults //Initialize the item properties, you can change the damage and efficiency of individual weapons here
-Terraria - Terraria.exe - Terraria.GameContent.ItemDropRules - ItemDropDatabase //Dropped items and probability, the probability value is a multiple of %0.1, 20 means the probability is 2%
+Terraria - Terraria.exe - Terraria.GameContent.ItemDropRules - ItemDropDatabase //Dropped items and probability, the probability is the reciprocal of the value, for example, a value of 20 represents a probability of 1/20
 ```
 ````
 Terraria - Terraria.exe - Terraria - Item - buyPrice //buy price
