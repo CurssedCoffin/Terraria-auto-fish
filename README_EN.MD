@@ -120,10 +120,13 @@ if (this.bobber && this.Name == "浮标")
 ```C:\Program Files (x86)\Steam\userdata\[your steam id]\105600\remote```, which changes depending on where your Steam is installed and what your Steamid is
 * The offline save is stored in the ```%userprofile%\Documents\My Games\Terraria``` path
 * some other details
+```
+Terraria - Terraria.exe - Terraria - Item - SetDefaults //Initialize the item properties, you can change the damage and efficiency of individual weapons here
+Terraria - Terraria.exe - Terraria.GameContent.ItemDropRules - ItemDropDatabase //Dropped items and probability, the probability value is a multiple of %0.1, 20 means the probability is 2%
+```
 ````
 Terraria - Terraria.exe - Terraria - Item - buyPrice //buy price
 Terraria - Terraria.exe - Terraria - Item - sellPrice //Sell Price
-Terraria - Terraria.exe - Terraria - Item - SetDefaults //Initialize item properties, you can change the damage of individual weapons here
 Terraria - Terraria.exe - Terraria - Player - Hurt //Inflicted damage. After testing, it may be related to the invincibility frame, but not much. The value does not affect the damage. If you return a number directly, you will be invincible. Negative effects such as burns cannot be immune.
 Terraria - Terraria.exe - Terraria - Player - GetWeaponDamage // all weapon damage calculations are here
 ````
