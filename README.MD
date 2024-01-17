@@ -5,7 +5,7 @@ FOR [ENGLISH VERSION](https://github.com/CurssedCoffin/Treearia-auto-fish/blob/m
 
 **该方法具有以下两个缺点：1、钓鱼时，Terraria需处于前台，无法在后台进行钓鱼（实现方法为调用Windows的鼠标点击操作实现收放鱼竿） 2、游戏无法完全关闭（虽然窗口已经关闭，但进程任然存在，需要手动到任务管理器中关闭，原因为钓鱼过程中使用了一个线程，并且线程未结束，目前没有找到这个bug的一个好的修复方法）**
 
-**在Terraria 1.4.3.6版本下测试可行**
+**在Terraria 1.4.4.9版本下测试可行**
 
 ![avatar](./imgs/anime.gif)
 
