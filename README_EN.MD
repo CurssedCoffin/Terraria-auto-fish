@@ -3,7 +3,7 @@
 
 **This method has the following two disadvantages: 1, fishing, Terraria should be at the front desk, not in the background (Invoke the mouse click operation of Windows to realize the retraction and release of the fishing rod) 2, games can't completely shut down (though the window has been closed, but the process still exist, need to manually shut down in the task manager, the reason is a thread in the process of fishing, No good fix has been found for this bug.)**
 
-**This works with Terraria 1.4.3.6**
+**This works with Terraria 1.4.4.9**
 
 ![avatar](./imgs/anime.gif)
 
